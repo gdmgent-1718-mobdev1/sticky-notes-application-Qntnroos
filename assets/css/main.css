@@ -1,0 +1,23 @@
+.header {
+    width: auto;
+    height: 60px;
+    background: cornflowerblue;
+    color: white;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+.card {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.btn-primary:hover {
+    background-color: #419ac6;
+    border-color: #419ac6;
+}
+
+form {
+    margin-top: 20px;
+}
