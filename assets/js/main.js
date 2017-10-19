@@ -40,7 +40,7 @@ ready(function(){
                             <h4 class="card-title">Sticky Note ${i + 1}</h4>
                             <p class="card-text">${el.message}</p>
                             <form>
-                                <button class="btn btn-primary blue updateStickyNote" id="${el.id}">Modify Sticky Note</button>
+                                <button class="btn btn-primary updateStickyNote" id="${el.id}">Modify Sticky Note</button>
                                 ${el.deletedDate == null ? `<button class="btn btn-outline-danger softdelete" id="${el.id}">Soft Delete</button>`
                                 : `<button class="btn btn-outline-danger softUndelete" id="${el.id}">Soft Undelete</button>`}
                                 <button class="btn btn-outline-danger delete">
